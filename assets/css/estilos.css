@@ -1,0 +1,72 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.imagen{
+    object-fit: cover; /*ajustar la imagen al div*/
+}
+
+.texto h1{
+    text-shadow: 2px 2px 4px rgb(67, 67, 67); /*agregar sombra al texto*/   
+}
+
+p{
+    text-align: justify;
+}    
+
+.caracteristica{
+    background-color: #E8DAEF ;
+}
+
+.compra, .contacto .btn{
+    background-color:  #176B87;
+}
+
+.compra .btn{
+    background-color: #33BBC5;
+}
+
+.formulario{
+    background-color: #ADC4CE;
+}
+
+
+
+@media (max-width: 575px) /*XS*/
+{
+    .texto{
+        top: 70px;
+        text-align: center;
+    }
+    .texto p{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) /*SM*/
+{  
+    .texto{
+        top: 210px;
+        left: 40px;
+    }  
+}
+
+@media (min-width: 768px) /*MD*/
+{  
+    .texto{
+        top: 235px;
+    }
+}
+
+@media (min-width: 992px) /*LG*/
+{ 
+    .texto{
+        top: 280px;
+    }   
+    .presentacion h2{
+        text-align: left;
+    } 
+}
+
+@media (min-width: 1200px) /*XL*/
+{ }

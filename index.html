@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/jpg" href="assets/img/favicon.png">
+        <title>Smart Health Bracelet</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/estilos.css"/>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            
+            <!--Barra navegación-->
+            <header>
+              <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <!--fixed-top: barra fija-->
+                <div class="container-fluid">
+                  <!--<a class="navbar-brand" href="#">Smart Health Bracelet</a>-->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#presentacion">Presentación</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#caracteristicas">Características</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#beneficios">Beneficios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#compra">Compra</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            </header>
+
+            <!--Inicio-->
+            <section id="inicio">
+              <div class="row">
+                <img class="imagen vh-100 vw-100 px-0" src="assets/img/inicio.jpg" alt="Mujer corriendo con un smartwatch">
+
+                <div class="texto col-sm-4 col-md-5 col-lg-6 position-absolute">
+                  <h1>SMART HEALTH BRACELET</h1>
+                  <p>Tu compañero de bienestar. ¡Siente el cambio!</p>
+                </div>
+              </div>
+            </section>
+
+            <!--Presentación-->
+            <section id="presentacion">
+              <br>
+              <br>
+              <hr>
+              <div class="presentacion row py-5 pb-2 justify-content-center">
+                <div class="text-center col-lg-3">
+                  <h2>Tu camino hacia una vida saludable</h2>
+                </div>
+
+                <div class="col-sm-4 col-lg-3">
+                  <p>El "Smart Health Bracelet" no es solo un simple dispositivo, es una inversión en tu salud y bienestar. 
+                    Con su capacidad para rastrear la frecuencia cardíaca, la calidad del sueño, el nivel de oxígeno en la sangre
+                    y más, proporciona información valiosa para tomar decisiones informadas sobre tu bienestar.
+                  </p>
+                </div>
+
+                <div class="col-sm-4 col-lg-3">
+                  <p>Satisface la creciente necesidad de las personas de cuidar su salud de manera proactiva en un mundo cada vez
+                    más ocupado. Monitorea de manera continua y conveniente las métricas de salud, al mismo tiempo
+                    que proporciona recomendaciones personalizadas para mejorar el bienestar general. 
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <!--Características-->
+            <section id="caracteristicas">
+              <br>
+              <hr>
+              <br>
+              <div class="row py-2 pb-0 justify-content-center">
+                <h3 class="mb-4 ps-5">Características del Smart Health Bracelet</h3>
+             
+                <div class="caracteristica col-sm-6 col-lg-4 text-center ps-5 pe-5 pt-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-heart-pulse" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053.918 3.995.78 5.323 1.508 7H.43c-2.128-5.697 4.165-8.83 7.394-5.857.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17c3.23-2.974 9.522.159 7.394 5.856h-1.078c.728-1.677.59-3.005.108-3.947C13.486.878 10.4.28 8.717 2.01L8 2.748ZM2.212 10h1.315C4.593 11.183 6.05 12.458 8 13.795c1.949-1.337 3.407-2.612 4.473-3.795h1.315c-1.265 1.566-3.14 3.25-5.788 5-2.648-1.75-4.523-3.434-5.788-5Z"/>
+                    <path d="M10.464 3.314a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.5a.5.5 0 0 0 0 1H4a.5.5 0 0 0 .416-.223l1.473-2.209 1.647 4.118a.5.5 0 0 0 .945-.049l1.598-5.593 1.457 3.642A.5.5 0 0 0 12 9h3.5a.5.5 0 0 0 0-1h-3.162l-1.874-4.686Z"/>
+                  </svg>
+                  <h5 class="mt-3">Monitor de Salud Avanzado</h5>
+                  <p>Supervisa tu frecuencia cardíaca,de nivel de oxígeno en sangre y calidad del sueño para un 
+                    control completo de tu salud.
+                  </p>
+                </div>
+
+                <div class="caracteristica col-sm-6 pt-sm-5 col-lg-4 text-center ps-5 pe-5 pt-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-walking" viewBox="0 0 16 16">
+                    <path d="M9.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM6.44 3.752A.75.75 0 0 1 7 3.5h1.445c.742 0 1.32.643 1.243 1.38l-.43 4.083a1.75 1.75 0 0 1-.088.395l-.318.906.213.242a.75.75 0 0 1 .114.175l2 4.25a.75.75 0 1 1-1.357.638l-1.956-4.154-1.68-1.921A.75.75 0 0 1 6 8.96l.138-2.613-.435.489-.464 2.786a.75.75 0 1 1-1.48-.246l.5-3a.75.75 0 0 1 .18-.375l2-2.25Z"/>
+                    <path d="M6.25 11.745v-1.418l1.204 1.375.261.524a.75.75 0 0 1-.12.231l-2.5 3.25a.75.75 0 1 1-1.19-.914l2.345-3.048Zm4.22-4.215-.494-.494.205-1.843a1.93 1.93 0 0 0 .006-.067l1.124 1.124h1.44a.75.75 0 0 1 0 1.5H11a.75.75 0 0 1-.531-.22Z"/>
+                  </svg>
+                  <h5 class="mt-3">Seguimiento de Actividad Física</h5>
+                  <p>Registra tus pasos, distancia y calorías quemadas, motivándote a mantener un estilo de vida 
+                    activo.
+                  </p>
+                </div>
+            
+                <div class="caracteristica col-sm-6 pt-sm-4 col-lg-4 pt-lg-5 text-center ps-5 pe-5 pt-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-broadcast-pin" viewBox="0 0 16 16">
+                    <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM6 8a2 2 0 1 1 2.5 1.937V15.5a.5.5 0 0 1-1 0V9.937A2 2 0 0 1 6 8z"/>
+                  </svg>
+                  <h5 class="mt-3">Conectividad Inteligente</h5>
+                  <p>Conéctate con dispositivos inteligentes para controlar tu hogar y mejorar tu comodidad con un solo
+                    toque.
+                  </p>
+                </div>
+              
+                <div class="caracteristica col-sm-6 col-lg-4 text-center ps-5 pe-5 pt-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-smartwatch" viewBox="0 0 16 16">
+                    <path d="M9 5a.5.5 0 0 0-1 0v3H6a.5.5 0 0 0 0 1h2.5a.5.5 0 0 0 .5-.5V5z"/>
+                    <path d="M4 1.667v.383A2.5 2.5 0 0 0 2 4.5v7a2.5 2.5 0 0 0 2 2.45v.383C4 15.253 4.746 16 5.667 16h4.666c.92 0 1.667-.746 1.667-1.667v-.383a2.5 2.5 0 0 0 2-2.45V8h.5a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5H14v-.5a2.5 2.5 0 0 0-2-2.45v-.383C12 .747 11.254 0 10.333 0H5.667C4.747 0 4 .746 4 1.667zM4.5 3h7A1.5 1.5 0 0 1 13 4.5v7a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 3 11.5v-7A1.5 1.5 0 0 1 4.5 3z"/>
+                  </svg>
+                  <h5 class="mt-3">Diseño Elegante y Personalizable</h5>
+                  <p>Elige entre varios estilos y colores para personalizar tu brazalete y hacerlo acorde a tu moda.
+                  </p>
+                </div>
+
+                <div class="caracteristica col-sm-6 pb-sm-4 col-lg-4 text-center ps-5 pe-5 pt-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                    <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+                  </svg>
+                  <h5 class="mt-3">Recordatorio y Notificaciones</h5>
+                  <p>Recibe notificaciones de llamadas y mensajes, y establece recordatorios para mantener tu rutina
+                    en orden.
+                  </p>
+                </div>
+
+                <div class="caracteristica col-sm-6 col-lg-4 pb-4 text-center ps-5 pe-5 pt-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z"/>
+                  </svg>
+                  <h5 class="mt-3">Aplicación de Análisis Detallado</h5>
+                  <p>Sincroniza tus datos con la aplicación móvil para un análisis detallado de tu salud y actividad 
+                    diaria.
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <!--Beneficios-->
+            <section id="beneficios">
+              <br>
+              <br>
+              <hr>
+              <br>
+              <div class="row py-2 align-items-center">
+                <h3 class="mb-4 ps-5">Beneficios</h3>
+                
+                <div class="col-md-6 col-lg-5 mb-sm-2 ps-md-5">
+                  <img class="px-0 d-block w-100" src="assets/img/beneficio1.jpeg" alt="Mujer corriendo por la carretera">
+                </div>
+
+                <div class="col-md-6 col-lg-7 ps-md-4 pe-md-5 d-flex flex-column justify-content-center">
+                  <h4 class="mb-3">1. Mejora de la Salud Personal</h4>
+                  <p class="my-0">Mantén un control constante de tu salud con el "Smart Health Bracelet". Supervisa tu ritmo cardíaco, niveles de oxígeno
+                    en sangre y calidad de sueño para tomar decisiones más informadas sobre tu bienestar. este brazalete te ayuda a prevenir 
+                    problemas de salud al proporcionarte datos en tiempo real y notificaciones de anomalías. Convierte tu salud en una prioridad.
+                  </p>
+                </div>
+              </div>
+
+              <br>
+              <div class="row py-2 align-items-center">
+                <div class="col-md-6 col-lg-7 pe-md-4 ps-md-5 order-md-1 order-2 d-flex flex-column justify-content-center"> <!--d-flex: facilitar la alineación en un contenedor. flex-column: hace que el h4 y p se convierta en una columna junta. -->
+                  <h4 class="mb-3">2. Estilo de Vida Activo y Conectado</h4>
+                  <p class="my-0">El "Smart Health Bracelet" no es solo un dispositivo de salud; también es tu puerta de entrada a un estilo de vida más activo
+                    y conectado. Registra tus pasos, distancia y calorías quemadas para mantenerte motivado y en movimiento. Además, la conectividad
+                    inteligente te permite controlar dispositivos en tu hogar de forma conveniente. Aprovecha la tecnología para vivir con
+                    mayor comodidad.
+                  </p>
+                </div>
+
+                <div class="col-md-6 col-lg-5 mb-sm-2 pe-md-5 order-md-2 order-1">
+                  <img class="px-0 d-block w-100" src="assets/img/beneficio2.jpg" alt="Hombre mirando su smartwatch">
+                </div>
+              </div>
+            </section> 
+
+            <!--Compra-->
+            <section id="compra">
+              <br>
+              <br>
+              <div class="compra row justify-content-center align-items-center py-3" >
+                <div class="col-sm-6 col-md-7 mb-1 mx-2">
+                  <p class="text-white fw-bold my-0">¡No esperes más para mejorar tu salud y bienestar! El "Smart Health Bracelet" es tu compañero
+                    perfecto en el camino hacia una vida más saludable y activa. Aprovecha esta oportunidad y adquiere 
+                    tu brazalete ahora para comenzar a disfrutar de tus beneficios.
+                  </p>
+                </div>
+
+                <div class="col-sm-4 py-2 col-md-3 mx-1 d-flex align-items-center">
+                  <a href="#;" class="btn btn-light btn-xl w-100 fw-bold pt-3 pb-3">Comprar Ahora</a>
+                </div>
+              </div>
+            </section>  
+
+            <!--Contacto--> 
+            <section id="contacto">
+              <br>
+              <br>
+              <div class="contacto row justify-content-center">
+                <h3 class="mb-4 ps-5 pe-5">Formulario de Contacto</h3>
+                <p class="mb-5 ps-5 pe-5">Escríbenos y en breve nos pondremos en contacto contigo.</p>
+
+                <div class="formulario col-sm-8 col-md-7 col-lg-6 py-4 px-4 rounded">
+                  <div class="col-lg-12 mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre*</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu nombre">
+                  </div>
+                  <div class="col-lg-12 mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email*</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="col-lg-12 mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu teléfono">
+                  </div>
+                  <div class="col-lg-12 mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Asunto*</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escribe un asunto">
+                  </div>
+                  <div class="col-lg-12 mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Deja aquí tu comentario..." rows="3"></textarea>
+                  </div>
+                  
+                  <div class="col-lg-12 d-flex justify-content-end">
+                    <button type="submit" class="btn text-white mt-2">Enviar</button>
+                  </div>
+                </div>
+              </div>
+            </section>  
+
+            <!--Footer--> 
+            <br>
+            <br>
+            <footer>
+              <div class="row">
+                <div class="col-lg-12 bg-dark ps-4">
+                  <p class="text-white small my-2">&copy; 2023 Eva Sánchez López ·</p>
+                </div>
+              </div>
+            </footer>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
